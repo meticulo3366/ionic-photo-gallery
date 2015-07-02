@@ -1,0 +1,32 @@
+
+#configure host environment
+
+##add to bash profile
+
+export ANDROID_HOME=/Applications/ADT/sdk 
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+##add the following system commands via npm install -g
+
+node, npm, ionic, ios-sim, bower, cordova   
+
+## make sure virtual box is installed
+
+## make sure vagrant is installed
+
+
+
+#configure VM environment
+
+### TODO: VM is configured VIA deployment tool
+### TODO(2): VM is deployed with cloud foundry instead of ansible
+
+## install bower in vm
+
+sudo npm install bower -g
+
+## install ionic command
+
+sudo npm install ionic -g
+
+

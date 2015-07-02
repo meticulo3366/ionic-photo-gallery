@@ -51,6 +51,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # set the system memory for the virtual machine
         vb.memory = 2048
         # number of Physical CPUs to allocate
-        vb.cpus = 2
+        vb.cpus = 1
     end
 end

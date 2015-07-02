@@ -35,6 +35,7 @@
     "org.apache.cordova.dialogs"
   ],
   "cordovaPlatforms": [
-    "android"
+    "android",
+    "ios"
   ]
 }
